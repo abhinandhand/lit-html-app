@@ -7,7 +7,6 @@ html   `
 
 </div>
 `
-
 render(myTemplate('Abhinandhan'), document.body)
 
 //comparing innerHTML update & lit-HTML update
