@@ -5,6 +5,7 @@ export class MyElement extends LitElement {
         return html `
         <div>
         <h1>Welcome this is a Webcomponent built using lit-element</h1>
+        <slot></slot>
         </div>
         `
     }

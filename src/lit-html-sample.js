@@ -1,4 +1,4 @@
- import {html, render} from './node_modules/lit-html/lit-html.js';
+ import {html, render} from 'lit-html';
 
 const myTemplate = (name) => 
 html   `
@@ -8,7 +8,7 @@ html   `
 </div>
 `
 render(myTemplate('Abhinandhan'), document.body)
-
+console.log(document.body)
 //comparing innerHTML update & lit-HTML update
 setTimeout(()=>{
     document.getElementById('hello').innerHTML = "Hello Nandhan Devadiga"
